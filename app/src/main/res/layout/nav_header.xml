@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/be16cf6a2e5398a054ad399451c65e00"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+         />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/iiii"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="257dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="-100dp"
+        android:text="One Stop for all Sahyadri Buzz"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

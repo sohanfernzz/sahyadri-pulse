@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group
+    android:checkableBehavior="single"
+    tools:ignore="ExtraText">
+
+    <item
+        android:id="@+id/nav_cse"
+        android:title="CSE" />
+<!--        android:icon="@drawable/nav_logout"-->
+    <item
+        android:id="@+id/nav_ise"
+        android:title="DS/ISE" />
+<!--        android:icon="@drawable/nav_logout"-->
+
+
+    <item
+        android:id="@+id/nav_aiml"
+        android:title="AIML" />
+<!--        android:icon="@drawable/nav_logout"-->
+    <item
+        android:id="@+id/nav_mech"
+        android:title="ME" />
+    <!--        android:icon="@drawable/nav_logout"-->
+    <item
+        android:id="@+id/nav_ece"
+        android:title="ECE" />
+    <!--        android:icon="@drawable/nav_logout"-->
+
+</group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="LOG OUT"
+                android:icon="@drawable/nav_logout"/>
+        </menu>
+
+    </item>
+</menu>

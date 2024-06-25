@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/y_project"
+        android:label="PULSE"
+        android:roundIcon="@drawable/y_project"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        tools:targetApi="33">
+        <activity
+            android:name=".admin.UploadNotices.upload_details"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".User.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_signup"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_login"
+            android:exported="false" />
+        <activity
+            android:name=".User.home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

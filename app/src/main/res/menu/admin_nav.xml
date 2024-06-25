@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single"
+        tools:ignore="ExtraText">
+
+        <item
+            android:id="@+id/up_notice"
+            android:title="Upload Notices"
+            android:icon="@drawable/notice"/>
+        <item
+            android:id="@+id/del_notice"
+            android:title="Delete notices"
+            android:icon="@drawable/delete_notice"/>
+
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="LOG OUT"
+                android:icon="@drawable/nav_logout"/>
+        </menu>
+
+    </item>
+</menu>
